@@ -1,0 +1,114 @@
+body{
+    background-image: linear-gradient(45deg, rgb(19, 19, 19), rgb(43, 43, 43));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-inline: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+header{
+    background-color: rgb(95, 196, 95);
+    display: flex;
+    width: auto;
+    height: 70px;
+}
+header #opcoes{
+    align-items: center;
+    align-self: center;
+    padding-inline: 60px;
+    color: rgb(4, 43, 4);
+    text-decoration: none;
+}
+header #pesquisar{
+    margin-left: auto;
+    align-self: center;
+    padding-inline: 100px;
+    color: rgb(4, 43, 4);
+    text-decoration: none;
+}
+header #opcoes:hover{
+    height: 70px;
+    background-color: rgb(129, 234, 129);
+}
+
+.apresentacao{
+    display: flex;
+    width: auto;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.foto-apresentacao{
+    width: 300px;
+    height: auto;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+.texto-apresentacao{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    height: 600px;
+}
+.projetos-l1{
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.projetos-l1 img{
+    width: 250px;
+    padding-inline: 15px;
+}
+.projetos-l1-texto{
+    width: 30%;
+    padding-inline: 15px;
+}
+
+h1{
+    color: rgb(129, 234, 129);
+    font-size: 32px;
+}
+h2{
+    color: rgb(248, 229, 187);
+    font-size: 24px;
+}
+p{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(95, 196, 95);
+    display: flex;
+    width: auto;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+footer .redes{
+    align-items: center;
+    align-self: center;
+    padding-inline: 60px;
+    color: rgb(4, 43, 4);
+    text-decoration: none;
+}
+footer img{
+    width: 40px;
+    padding-inline: 30px;
+}
