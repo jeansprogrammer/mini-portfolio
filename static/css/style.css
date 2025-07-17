@@ -121,3 +121,9 @@ footer img{
     width: 40px;
     padding-inline: 30px;
 }
+
+.titulo-projetos{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
